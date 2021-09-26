@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------Header---------------*/
+.header{
+    height: 7vh;
+    width: 100%;
+    background-color: #F2E3BB;
+}
+.header a img{
+    height: 7vh;
+    width: 10vh;
+}
+.header div{
+    border-radius: 2vh;
+    background-color: antiquewhite;
+    position: absolute;
+    right: 0%;
+    top: 1vh;
+    height: 5vh;
+    width: 50vh;
+    transform: translate(-50%-50%);
+}
+.header div a{
+    color: brown;
+    float: right;
+    width: 40px;
+    height:  38px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 45px;
+}
+
+/*----------Navigation Bar ----------> */
+.nav-bar{
+    align-items: center;
+    background-color: #DBD19E;
+} 
+.nav-bar div {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    padding:  30px 10%;
+}
+.nav-bar div li{
+    display: inline-block;
+    padding: 0px 40px;
+}
+
+/* ---------- Desciption ---------------*/
+.description{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/BOOK_OTTILIE-1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box{
+    width: 90%; 
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.description div h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size:  16px;
+    color: #fff;
+}
