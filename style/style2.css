@@ -85,3 +85,31 @@
     text-decoration: none;
     font-size: 16px;
 }
+
+
+
+/*--------- Catefory --------*/
+
+/*----- Fiction--------*/
+
+.category {
+   background-color: #F2E3BB;
+    padding-bottom: 1vh;
+}
+.category h1 { 
+    font-size: 48px;
+}
+.row{
+    width: 100%;
+    margin: 5vh;
+    margin-bottom: 5vh;
+    background-color: #7A2004;
+    padding: 2vh;
+    left: 50%;
+    transform: translate(-50%);
+}   
+.row img{
+    width: 20vh;
+    height: 30vh;
+    margin: 1vh;
+}

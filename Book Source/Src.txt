@@ -1,0 +1,99 @@
+/*img src-Book Title-Description- Quote or Endorsement-author name-img-description*/
+
+****---------  2020   --------*****
+
+######-----------  Fiction--------########
+
+
+
+I----- Winner
+
+@Book
+- img src
++ https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558394042l/44436221.jpg
+
+- Book Title
++ Interior Chinatown
+
+-Description
++ Willis Wu doesn't perceive himself as a protagonist even in his own life: he's merely Generic Asian Man. Every day, he leaves his tiny room in a Chinatown SRO and enters the Golden Palace restaurant, where Black and White, a procedural cop show, is in perpetual production. He's a bit player here too. . . but he dreams of being Kung Fu Guy—the highest aspiration he can imagine for a Chinatown denizen. Or is it?
+After stumbling into the spotlight, Willis finds himself launched into a wider world than he's ever known, discovering not only the secret history of Chinatown, but the buried legacy of his own family, and what that means for him, in today's America.
+Playful but heartfelt, a send-up of Hollywood tropes and Asian stereotypes—Interior Chinatown is Charles Yu's most moving, daring, and masterful novel yet.
+
+- Quote
++ There are a few years when you make almost all of your important memories. And then you spend the next few decades reliving them.
+
+@Author
+- name
++ Charles Yu
+
+- img
++https://images.gr-assets.com/authors/1559679119p5/221608.jpg
+
+- Description
++CHARLES YU is the author of four books, including his latest, Interior Chinatown, which is a Finalist for the National Book Award for Fiction, and shortlisted for Le Prix Médicis étranger. He has received the National Book Foundation’s 5 Under 35 Award, been nominated for two Writers Guild of America awards for his work on the HBO series Westworld, and has also written for shows on FX, AMC, Facebook Watch, and Adult Swim.
+His fiction and non-fiction have appeared in a number of publications including The New Yorker, The New York Times Magazine, The Atlantic, Wired, Time and Ploughshares. You can find him on Twitter @charles_yu.
+
+
+II----Final List
+
+1. 
+
+@Book
+- img src
++ https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1583735183l/50358031.jpg
+
+- Book Title
++ Leave the world behind
+
+- Description
++ A magnetic novel about two families, strangers to each other, who are forced together on a long weekend gone terribly wrong
+
+Amanda and Clay head out to a remote corner of Long Island expecting a vacation: a quiet reprieve from life in New York City, quality time with their teenage son and daughter, and a taste of the good life in the luxurious home they’ve rented for the week. But a late-night knock on the door breaks the spell. Ruth and G. H. are an older black couple—it’s their house, and they’ve arrived in a panic. They bring the news that a sudden blackout has swept the city. But in this rural area—with the TV and internet now down, and no cell phone service—it’s hard to know what to believe.
+
+Should Amanda and Clay trust this couple—and vice versa? What happened back in New York? Is the vacation home, isolated from civilization, a truly safe place for their families? And are they safe from one another? 
+
+Suspenseful and provocative, Rumaan Alam’s third novel is keenly attuned to the complexities of parenthood, race, and class. Leave the World Behind explores how our closest bonds are reshaped—and unexpected new ones are forged—in moments of crisis
+
+- Quote
++ Parenthood was never knowing what was going to hurt your kids, but knowing only that something, inevitably, would.
+
+@Author
+- name 
++ Rumaan Alam
+
+- img
++ https://images.gr-assets.com/authors/1590769542p5/4425884.jpg
+
+- Description
++ I'm the author of the novels Rich and Pretty, That Kind of Mother, and Leave the World Behind.
+
+My short fiction has appeared in StoryQuarterly, Crazyhorse, Meridian, and elsewhere. 
+I've also written for the New York Times, the New Yorker, the Wall Street Journal, and the New Republic, where I am a contributing editor. I co-host two podcasts for Slate, where I am also one of the parenting advice columnists. 
+I studied writing at Oberlin College. Now I live in New York with my husband and two kids.
+
+2.
+@Book
+
+- img src
++ https://www.nationalbook.org/wp-content/uploads/2020/10/fic-millet-lydia-childrens-bible-a-fin.jpg
+
+- Book Title
++ A Children's Bible 
+
+- Description
++ A Children’s Bible follows a group of twelve eerily mature children on a forced vacation with their families at a sprawling lakeside mansion. Contemptuous of their parents, the children decide to run away when a destructive storm descends on the summer estate, embarking on a dangerous foray into the apocalyptic chaos outside. Lydia Millet’s prophetic and heartbreaking story of generational divide offers a haunting vision of what awaits us on the far side of Revelation
+
+- Quote
++ When we ran, if we chose to, we ran like flashes of silk. We had the vigor of those freshly born. Relatively speaking. And no, we wouldn’t be like this forever. We knew it, on a rational level. But the idea that those garbage-like figures that tottered around the great house were a vision of what lay in store—hell no. Had they had goals once? A simple sense of self-respect? They shamed us. They were a cautionary tale
+
+@Author
+- name
++ Lydia Millet
+ 
+- img
++ https://images.gr-assets.com/authors/1405974518p5/8523.jpg
+
+- Description
++  Lydia Millet has written twelve works of fiction. She has won awards from PEN Center USA and the American Academy of Arts and Letters, and her books have been longlisted for the National Book Award, shortlisted for the National Book Critics Circle Award and Los Angeles Times Book Prize, and named as New York Times Notable Books. Her story collection Love in Infant Monkeys was a Pulitzer Prize finalist. She lives outside Tucson, Arizona
+

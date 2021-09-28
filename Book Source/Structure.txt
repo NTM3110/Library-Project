@@ -1,0 +1,23 @@
+@Book
+
+- img src
++ 
+
+- Book Title
++ 
+
+- Description
++
+
+- Quote
++ 
+
+@Author
+- name
++
+ 
+- img
++
+
+- Description
++  
