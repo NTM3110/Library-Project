@@ -113,3 +113,24 @@
     font-size:  16px;
     color: #fff;
 }
+.about tr th{
+    color: black;  
+    font-size: 24px;
+}
+.about {
+    width: 100%;
+    background-color: #F0C75B;
+}
+.about tr td{
+    text-align: center;
+}
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    left: 535px;
+}
