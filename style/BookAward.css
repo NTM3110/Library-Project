@@ -150,9 +150,10 @@ body{
     justify-content: center;
 }
 .contact {
-  position: absolute;
+    margin-top: 10px;
+  position: relative;
   left: 0;
-  bottom: -100vh;
+  bottom: 0%;
   width: 100%;
   background-color: #7a2004;
   color: black;
