@@ -130,8 +130,8 @@ body{
 .row{
     width: 80%;
     background-color: #7A2004;
-    margin: 0 auto;
     box-shadow: inset 0px 0px 20px black;
+    margin: 0 auto;
     border-radius: 10px;
 }   
 .row img{
@@ -142,13 +142,23 @@ body{
     border-radius: 10px;
 }
 .row img:hover{
-     box-shadow: 0px 0px 30px black;
+    box-shadow: 0px 0px 30px white;
 }
 .img-line {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.contact {
+  position: absolute;
+  left: 0;
+  bottom: -100vh;
+  width: 100%;
+  background-color: #7a2004;
+  color: black;
+  text-align: center;
+}
+
 
 
 
