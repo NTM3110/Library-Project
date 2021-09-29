@@ -126,6 +126,7 @@ body{
 .category h1 { 
     font-size: 40px;
     font-family: 'Gemunu Libre', sans-serif;
+    margin-bottom: 3px;
 }
 .row{
     width: 80%;
