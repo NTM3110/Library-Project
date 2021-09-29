@@ -92,11 +92,14 @@ nav{
 
 /*-------------menu------------*/
 .menu{
-    margin: 5vh auto 0 auto;
-    width: 80%;
+    margin: 3vh auto 10vh auto;
+    width: 100%;
 }
+
 .book-mark span{
     font-family: 'Montserrat', sans-serif;
+    margin-left: 12vh;
+    font-style: italic;
 }
 
 .book-mark .fa.fa-bars{
