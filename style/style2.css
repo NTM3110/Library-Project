@@ -90,14 +90,13 @@
 
 
 
-/*--------- Catefory --------*/
-
-/*----- Fiction--------*/
+/*--------- Category --------*/
 
 .category {
    background-color: #F2E3BB;
     padding-bottom: 1vh;
     margin-top: 3vh;
+    text-align: center;
 }
 .category h1 { 
     font-size: 40px;
@@ -110,15 +109,49 @@
     left: 50%;
     transform: translate(-50%);
     padding: 2vh;
-    box-shadow: inset 0px 0px 20px black;
+    box-shadow: inset 0px 0px 30px black;
 }   
 .row img{
     width: 20vh;
     height: 30vh;
-    margin: 1vh;
+    margin: 2vh;
+    display: block;
+    border-radius: 10px;
 }
 .row img:hover{
-     box-shadow: 0px 0px 20px black;
+     box-shadow: 0px 0px 30px black;
+}
+.book-brief{
+    flex-basis: 15%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.layer:hover{
+    background: rgba(255, 196, 0, 0.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
 }
 .img-line {
     display: flex;
