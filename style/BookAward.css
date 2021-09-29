@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #F2E3BB;
 }
@@ -113,7 +117,50 @@ nav{
     cursor: pointer;
 }
 
+.book-mark .menu-bar{
+    background-color: #9C9571;
+    position:absolute;
+    display:none;
+    height: 50vh;
+    width: 15%;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-top: 15px; 
+    margin-left: -15px;
+    animation: menu-bar 0.5s;
+}
 
+
+.book-mark .fa.fa-bars:hover .menu-bar{
+    display:block;
+}
+
+.menu-bar ul li{
+    list-style: none;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 20px;
+    font-size: 20px;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu-bar ul li a:hover{
+    color:blue;
+}
+
+@keyframes menu-bar {
+    from{
+        transform: translateX(-100%);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
 
 /*--------- Category --------*/
 
@@ -163,6 +210,13 @@ nav{
     text-align: center;
 }
 
+/*--------Scroll button--------*/
+.scroll-button{
+    font-size: 30px;
+    text-align: end;
+    padding: 20px;
+    cursor: pointer;
+}
 
 
 
