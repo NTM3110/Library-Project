@@ -115,26 +115,24 @@ body{
 
 /*--------- Category --------*/
 
-/*----- Fiction--------*/
-
 .category {
    background-color: #F2E3BB;
     padding-bottom: 1vh;
-    margin-top: 3vh;
+    margin-top: 7vh;
     text-align: center;
+    box-shadow: inset 0px 0px 40px #99926f;
+    border-radius: 20px;
 }
 .category h1 { 
     font-size: 40px;
     font-family: 'Gemunu Libre', sans-serif;
 }
 .row{
-    width: 100%;
+    width: 80%;
     background-color: #7A2004;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    margin: 0 auto;
     box-shadow: inset 0px 0px 20px black;
-    
+    border-radius: 10px;
 }   
 .row img{
     width: 20vh;
