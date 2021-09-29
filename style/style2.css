@@ -104,23 +104,18 @@
     font-family: 'Gemunu Libre', sans-serif;
 }
 .row{
-    width: 100%;
+    width: 80%;
     background-color: #7A2004;
     position: relative;
     left: 50%;
     transform: translate(-50%);
-<<<<<<< Updated upstream
     padding: 2vh;
     box-shadow: inset 0px 0px 20px black;
-=======
-    padding: 5vh;
-    
->>>>>>> Stashed changes
 }   
 .row img{
     width: 20vh;
     height: 30vh;
-    margin: 5vh;
+    margin: 1vh;
 }
 .row img:hover{
      box-shadow: 0px 0px 20px black;
