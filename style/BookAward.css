@@ -102,14 +102,14 @@ nav{
 
 .book-mark span{
     font-family: 'Montserrat', sans-serif;
-    margin-left: 12vh;
+    margin-left: 17vh;
     font-style: italic;
 }
 
 .book-mark .fa.fa-bars{
     color: #000000;
     background-color: #B7370F;
-    border-radius: 5px;
+    border-radius: 20px;
     width: 30%;
     padding: 15px;
     font-weight: bolder;
@@ -118,18 +118,14 @@ nav{
 }
 
 .book-mark .menu-bar{
-    background-color: #9C9571;
     position:absolute;
     display:none;
     height: 50vh;
-    width: 15%;
-    padding-left: 20px;
-    padding-right: 50px;
+    width: 30%;
     margin-top: 15px; 
-    margin-left: -15px;
+    background-color: rgba(153,146,111,0.8);
     animation: menu-bar 0.5s;
 }
-
 
 .book-mark .fa.fa-bars:hover .menu-bar{
     display:block;
@@ -137,28 +133,30 @@ nav{
 
 .menu-bar ul li{
     list-style: none;
+    
 }
 
 .menu-bar ul li a{
     text-decoration: none;
-    color:#fff;
-    padding: 20px;
+    color:black;
+    text-align: center;
+    padding-top: 5vh;
     font-size: 20px;
     display: block;
     transition: 0.3s;
 }
 
 .menu-bar ul li a:hover{
-    color:blue;
+    color:purple;
 }
 
 @keyframes menu-bar {
     from{
-        transform: translateX(-100%);
+        height: 0;
     }
 
     to{
-        transform: translateX(0);
+        height: 100;
     }
 }
 
