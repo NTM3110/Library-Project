@@ -136,7 +136,7 @@ nav{
     
 }
 
-.menu-bar ul li a{
+.text li a{
     text-decoration: none;
     color:black;
     text-align: center;
@@ -153,10 +153,12 @@ nav{
 @keyframes menu-bar {
     from{
         height: 0;
+        opacity: 0;
     }
 
     to{
         height: 100;
+        opacity: 1;
     }
 }
 
