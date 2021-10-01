@@ -18,14 +18,14 @@ nav{
     align-items: center;
 }
 .nav-links{
-    margin-left: 35%;
+    margin-left: 25%;
     flex: 1;
     text-align: left;
 }
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 20px;
+    padding: 30px;
     position: relative;
 }
 .nav-links ul li a{
