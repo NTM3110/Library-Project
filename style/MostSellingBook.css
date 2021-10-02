@@ -101,14 +101,16 @@ nav{
 /*-------------menu------------*/
 .menu{
     margin: 3vh auto 10vh auto;
-    width: 100%;
+    width: 100%
+   
 }
-
 .book-mark span{
+    position: relative;
+    left: 25%;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 14vh;
     font-style: italic;
-}
+}   
+
 
 .book-mark .fa.fa-bars{
     color: #000000;
