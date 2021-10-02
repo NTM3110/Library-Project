@@ -132,7 +132,7 @@ nav{
 }
 
 .book-mark .fa.fa-bars:hover .menu-bar{
-    display:block;
+    display: block;
 }
 
 .menu-bar ul li{
@@ -167,3 +167,36 @@ nav{
 }
 
 /* --------- sub-menu ---------*/
+.menu-bar .drop-down .sub-menu{
+    position:absolute;
+    top: 0;
+    right: -30%;
+    width: 30%;
+    background-color: rgba(153,146,111,0.4);
+    display:none;
+    animation: menu-bar 0.5s;
+}
+
+.menu-bar ul .drop-down{
+    position:relative;
+}
+
+
+.menu-bar .sub-menu li a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    padding: 1vh 0;
+    font-size: 15px;
+    display: block;
+    transition: 0.2s;
+}
+
+.menu-bar .drop-down:hover .sub-menu{
+    display: block;
+}
+
+.menu-bar .sub-menu li a:hover{
+    color: purple;
+}
+
