@@ -126,7 +126,7 @@ nav{
 .book-mark .menu-bar{
     position:absolute;
     display:none;
-    height: 20vh;
+    height: auto;
     width: 30%;
     margin-top: 15px; 
     background-color: rgba(153,146,111,0.8);
@@ -147,13 +147,10 @@ nav{
     color:black;
     text-align: center;
     padding-top: 5vh;
+    padding-bottom: 5vh;
     font-size: 20px;
     display: block;
     transition: 0.2s;
-}
-
-.menu-bar ul li a:hover{
-    color:purple;
 }
 
 @keyframes menu-bar {
@@ -198,7 +195,10 @@ nav{
     display: block;
 }
 
+/*hover vào sub-menu mà vẫn giữ đc background của menu */
+.menu-bar > ul > li:hover,
 .menu-bar .sub-menu li a:hover{
     color: purple;
+    background-color: blanchedalmond;
 }
 
