@@ -180,6 +180,10 @@ nav{
     position:relative;
 }
 
+.menu-bar .fa.fa-angle-right{
+    position:absolute;
+    font-size: 20px;
+}
 
 .menu-bar .sub-menu li a{
     text-decoration: none;
