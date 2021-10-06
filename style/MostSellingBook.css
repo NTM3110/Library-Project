@@ -126,7 +126,7 @@ nav{
 .book-mark .menu-bar{
     position:absolute;
     display:none;
-    height: 20vh;
+    height: auto;
     width: 30%;
     margin-top: 15px; 
     background-color: rgba(153,146,111,0.8);
@@ -187,6 +187,10 @@ nav{
     position:relative;
 }
 
+.menu-bar .fa.fa-angle-right{
+    position:absolute;
+    font-size: 20px;
+}
 
 .menu-bar .sub-menu li a{
     text-decoration: none;
@@ -202,7 +206,10 @@ nav{
     display: block;
 }
 
+/*hover vào sub-menu mà vẫn giữ đc background của menu */
+.menu-bar > ul > li:hover,
 .menu-bar .sub-menu li a:hover{
     color: purple;
+    background-color: blanchedalmond;
 }
 
