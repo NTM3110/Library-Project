@@ -8,7 +8,7 @@ function setImg(year){
             for(var j=0; j<container.length;j++){
                 if(container[j].localName == 'img'){
                      // naming the picture by odd number because between the pictures have text
-                    container[j].src = "../BookImg/"+year +"/Fiction/"+j+ ".jpg";
+                    container[j].src = "../BookImg/Book Award/"+year +"/Fiction/"+j+ ".jpg";
                 } 
             }
         }
@@ -18,7 +18,7 @@ function setImg(year){
             for(var j=0; j<container.length;j++){
                 if(container[j].localName == 'img'){
                     // naming the picture by odd number because between the pictures have text
-                    container[j].src = "../BookImg/" +year+"/Non-Fiction/"+j+ ".jpg"; 
+                    container[j].src = "../BookImg/Book Award/" +year+"/Non-Fiction/"+j+ ".jpg"; 
                 } 
             }
         }
@@ -28,7 +28,7 @@ function setImg(year){
             for(var j=0; j<container.length;j++){
                 if(container[j].localName == 'img'){
                      // naming the picture by odd number because between the pictures have text
-                    container[j].src = "../BookImg/" +year+"/Poetry/"+j+ ".jpg";
+                    container[j].src = "../BookImg/Book Award/" +year+"/Poetry/"+j+ ".jpg";
                 } 
             }
         }
@@ -38,7 +38,7 @@ function setImg(year){
             for(var j=0; j<container.length;j++){
                 if(container[j].localName == 'img'){
                      // naming the picture by odd number because between the pictures have text
-                    container[j].src = "../BookImg/" +year+"/Young People's Literature/"+j+ ".jpg";
+                    container[j].src = "../BookImg/Book Award/" +year+"/Young People's Literature/"+j+ ".jpg";
                 } 
             }
         }
