@@ -126,7 +126,7 @@ nav{
 .book-mark .menu-bar{
     position:absolute;
     display:none;
-    height: auto;
+    height: 15vh;
     width: 30%;
     margin-top: 15px; 
     background-color: rgba(153,146,111,0.8);
@@ -154,7 +154,7 @@ nav{
 }
 
 .menu-bar ul li :hover{
-    background-color: white;
+    background-color: blanchedalmond;
 }
 .menu-bar ul li a:hover{
     color:purple;
@@ -190,6 +190,10 @@ nav{
 .menu-bar .fa.fa-angle-right{
     position:absolute;
     font-size: 20px;
+}
+
+.menu-bar .sub-menu li{
+    margin: 0;
 }
 
 .menu-bar .sub-menu li a{
