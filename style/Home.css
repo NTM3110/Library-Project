@@ -182,8 +182,8 @@ nav{
     color: brown;
     margin-left: 15px;
 } 
-.footer .footer-content .contact-form .contact-input {
-    background: grey;
+.contact-input {
+    background-color: grey;
     color: white;
     margin-bottom: 10px;
     line-height: 1.5rem;
@@ -191,5 +191,18 @@ nav{
     width: 500px;
     border-radius: 10px;
 }
+::placeholder{
+    color: #fff;
+}
+.address-input{
+    background-color: grey;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    border: none;
+    width: 500px;
+    border-radius: 10px;
+}
+
 
     
