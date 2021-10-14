@@ -6,40 +6,49 @@ function setImg(year){
             var cate = categories[0];
             var container = cate.childNodes[3].childNodes[1].childNodes;
             for(var j=0; j<container.length;j++){
-                if(container[j].localName == 'img'){
-                     // naming the picture by odd number because between the pictures have text
-                    container[j].src = "../BookImg/Book Award/"+year +"/Fiction/"+j+ ".jpg";
-                } 
+                if(j % 2 ==1){
+                    var miniContainer= container[j].childNodes;
+                    for(var k =0 ;k< miniContainer.length;k++){
+                        miniContainer[k].src = "../BookImg/Book Award/" +year+"/Fiction/"+j+ ".jpg";
+                    }
+                }
+                
             }
         }
         if(i==1){
             var cate = categories[1];
             var container = cate.childNodes[3].childNodes[1].childNodes;
             for(var j=0; j<container.length;j++){
-                if(container[j].localName == 'img'){
-                    // naming the picture by odd number because between the pictures have text
-                    container[j].src = "../BookImg/Book Award/" +year+"/Non-Fiction/"+j+ ".jpg"; 
-                } 
+                if(j % 2 ==1){
+                    var miniContainer= container[j].childNodes;
+                    for(var k =0 ;k< miniContainer.length;k++){
+                        miniContainer[k].src = "../BookImg/Book Award/" +year+"/Non-Fiction/"+j+ ".jpg";
+                    }
+                }
             }
         }
         if(i==2){
             var cate = categories[2];
             var container = cate.childNodes[3].childNodes[1].childNodes;
             for(var j=0; j<container.length;j++){
-                if(container[j].localName == 'img'){
-                     // naming the picture by odd number because between the pictures have text
-                    container[j].src = "../BookImg/Book Award/" +year+"/Poetry/"+j+ ".jpg";
-                } 
+                if(j % 2 ==1){
+                    var miniContainer= container[j].childNodes;
+                    for(var k =0 ;k< miniContainer.length;k++){
+                        miniContainer[k].src = "../BookImg/Book Award/" +year+"/Poetry/"+j+ ".jpg";
+                    }
+                }
             }
         }
         if(i==3){
             var cate = categories[3];
             var container = cate.childNodes[3].childNodes[1].childNodes;
             for(var j=0; j<container.length;j++){
-                if(container[j].localName == 'img'){
-                     // naming the picture by odd number because between the pictures have text
-                    container[j].src = "../BookImg/Book Award/" +year+"/Young People's Literature/"+j+ ".jpg";
-                } 
+                if(j % 2 ==1){
+                    var miniContainer= container[j].childNodes;
+                    for(var k =0 ;k< miniContainer.length;k++){
+                        miniContainer[k].src = "../BookImg/Book Award/" +year+"/Young People's Literature/"+j+ ".jpg";
+                    }
+                }
             }
         }
     }

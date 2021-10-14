@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F2E3BB;
+}
+
+/*-------------Header---------------*/
+.header{
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    background-color: #DBD19E;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    margin-left: 28%;
+    flex: 1;
+    text-align: left;
+    position: absolute;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 33px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: purple;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-links ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li :hover::after{
+    width: 100%;
+}
+.header a img{
+    height: 10vh;
+    width: 13vh;
+}
+.search-box{
+    border-radius: 2vh;
+    background-color: antiquewhite;
+    position: absolute;
+    right: 0%;
+    top: 2vh;
+    height: 6vh;
+    width: 50vh;
+    transform: translate(-50%-50%);
+}
+.search-box a{
+    color: brown;
+    float: right;
+    width: 40px;
+    height:  35px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    transform: translate(0%,50%);
+    position: absolute;
+    left: 3%;
+    bottom: 50%;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 45px;
+}
+
+
+/*-------------menu------------*/
+.menu{
+    margin: 3vh auto 10vh auto;
+    width: 100%;
+}
+
+.book-mark span{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 17vh;
+    font-style: italic;
+}
+
+.book-mark .fa.fa-bars{
+    color: #000000;
+    background-color: #B7370F;
+    border-radius: 20px;
+    width: 30%;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+}
