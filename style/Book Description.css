@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -118,3 +122,92 @@ nav{
     font-size: 30px;
     cursor: pointer;
 }
+
+/*-------------Description--------*/
+.description {
+    display: flex;
+}
+.column {
+    float: left;
+    background-color: rgb(156, 149, 113,0.5);
+}
+
+.left {
+    height:80%;
+    width: 70%;
+    text-align: center;
+    border: 2px solid brown;
+}
+.description h1{
+    font-family: 'Amaranth', sans-serif
+}
+.left img{
+    width:  25vh;
+    float :left;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 45px;
+}
+.briefDes{
+    font-size: 18px;
+    text-align: left;
+    margin: 0px 7px 10px;
+    font-family: 'Architects Daughter', cursive;
+}
+.right{
+    width: 30%;
+    text-align: center;
+    border: 2px solid brown;
+}
+.left .blockquote {
+    left: 15%;
+    position: absolute;
+    max-width: 100vh;
+    margin: 10px 30px;
+    padding: 25px;
+    background-color: darkslategray;
+    border: 1px solid #b0d2cb;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+.blockquote--quoted::before{
+    text-align: left;
+    content: "\201c";
+    font-size: 100px;
+    color: rgba(248, 130, 94);
+    display: block;
+    margin-bottom: -40px;
+    margin-top: -20px;
+}
+.text{
+    font-family: 'Nothing You Could Do', cursive;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+.credit{
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+.credit::before{
+    content: "\2014\0020";
+}
+
+.right img{
+    width:  12vh;
+    border-radius:7%;
+    float :left;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+/*Clear floats after the columns*/
+.description:after {
+content: "";
+display: table;
+clear: both;
+}
+
